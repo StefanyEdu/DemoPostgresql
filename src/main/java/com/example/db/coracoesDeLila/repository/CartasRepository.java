@@ -6,5 +6,6 @@ import com.example.db.coracoesDeLila.models.Cartas;
 
 public interface CartasRepository  extends JpaRepository<Cartas , Long>{
 
+	Cartas findById(long id);
 }
 
