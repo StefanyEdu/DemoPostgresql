@@ -34,7 +34,7 @@ public class ConsultaDasCartas {
 	 }
 
 	//salvar
-	@PostMapping("/Cartas")
+	@PostMapping("/cartas")
 	public Cartas salvaCartas(@RequestBody Cartas cartas) {
 		return cartasRepository.save(cartas);
 	}
